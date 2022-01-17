@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Kaushan+Script&family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D9D7F1;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #FFCBCB;
+  border: none;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+  font-style: oblique;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+footer {
+  position: relative;
+}
+
+
+a {
+  text-decoration: none;
+  color: #333;
+}
